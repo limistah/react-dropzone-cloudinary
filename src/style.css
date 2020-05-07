@@ -1,0 +1,11 @@
+.dropzone-cloudinary {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  /* margin: 0.5em; */
+  border: 1px dashed salmon;
+  color: rgba(0, 0, 0, 0.7);
+}
+.dropzone-cloudinary:hover {
+  cursor: pointer;
+}
