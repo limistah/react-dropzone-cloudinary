@@ -23,12 +23,12 @@ function DropzoneCloudinary({
   Object.assign(
     _cloudinaryConfig,
     {
-      apiKey: "265769613316523",
-      apiSecret: "FbiyB4q3347vFOqqsbZWg6RChLw",
-      cloudName: "aleem",
+      apiKey: "",
+      apiSecret: "",
+      cloudName: "",
       public_id: "",
-      format: "image",
-      upload_preset: "kngveu8v",
+      format: "",
+      upload_preset: "",
     },
     cloudinaryConfig
   );

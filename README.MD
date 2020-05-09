@@ -30,24 +30,31 @@ import ReactDropzoneCloudinary from "react-dropzone-cloudinary";
 // const onComplete = data=> console.log(data)
 
 <ReactDropzoneCloudinary
-  // apiKey="YOUR_API_KEY"
-  apiKey="265769613316523"
-  // apiSecret="YOUR_SECRET_KEY"
-  apiSecret="FbiyB4q3347vFOqqsbZWg6RChLw"
-  // cloudName="YOUR_CLOUD_NAME"
-  cloudName="aleem"
-  // public_id="YOUR_PUBLIC_ID"
-  public_id=""
-  // format="FILE_FORMAT"
-  format="image"
-  // upload_preset="YOUR_UPLOAD_PRESET"
-  upload_preset="kngveu8v"
-  onComplete={(data) => {
-    console.log(data);
-  }}
-  // onComplete={onComplete}
+  apiKey="YOUR_API_KEY"
+  apiSecret="YOUR_API_SECRET"
+  cloudName="YOUR_CLOUD_NAME"
+  public_id="YOUR_PUBLIC_ID"
+  format="FILE_FORMAT"
+  upload_preset="YOUR_UPLOAD_PRESET"
+  onComplete={onComplete}
 />;
 ```
+
+## Props
+
+- **className**: \_Proptypes.string
+- **dropzoneConfig**: _Proptypes.object_ Options for the nested dropzone component.
+- **onComplete**: _Proptypes.func_ Callback called after the upload has been completed. Receives the file data sent from cloudinary as argument.
+
+- **onError**: _Proptypes.func_ Callback called whever an error is encountered during the upload. Receives a standard axios error return value.
+- **onProgress**: _Proptypes.func_ Callback called while uploading. Receives a number 0-1 for the uploaded ratio.
+- **cloudinaryConfig**: _Proptypes.object_ Options that are needed to make the upload to cloudinary. It requires the following keys:
+  - **apiKey**: _Proptypes.required.string_ Cloudinary API KEY
+  - **apiSecret**: _Proptypes.required.string_ Cloudinary API SECRET
+  - **cloudName**: _Proptypes.required.string_ Cloudinary Account cloudname
+  - **public_id**: _Proptypes.string_ Cloudinary Account public id
+  - **format**: _Proptypes.string_ The file format for the uploaded files
+  - **upload_preset**: _Proptypes.string_ Cloudinary Account Upload Preset
 
 ## License
 
