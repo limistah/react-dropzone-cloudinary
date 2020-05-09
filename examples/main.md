@@ -2,9 +2,6 @@
 
 React component to upload files to cloudinary using drag and drop provided through [react-dropzone](https://react-dropzone.js.org)
 
-Documentation and examples at https://react-dropzone.js.org. Source code at
-https://github.com/react-dropzone/react-dropzone/.
-
 ## Installation
 
 Install it from npm and include it in your React build process
@@ -28,12 +25,14 @@ import ReactDropzoneCloudinary from "react-dropzone-cloudinary";
 // const onComplete = data=> console.log(data)
 
 <ReactDropzoneCloudinary
-  apiKey="265769613316523"
-  apiSecret="FbiyB4q3347vFOqqsbZWg6RChLw"
-  cloudName="aleem"
-  public_id=""
-  format="image"
-  upload_preset="kngveu8v"
+  cloudinaryConfig={{
+    apiKey: "265769613316523",
+    apiSecret: "FbiyB4q3347vFOqqsbZWg6RChLw",
+    cloudName: "aleem",
+    public_id: "",
+    format: "image",
+    upload_preset: "kngveu8v",
+  }}
   onComplete={(data) => {
     console.log(data);
   }}

@@ -16,7 +16,7 @@ module.exports = {
   sections: [
     {
       name: "",
-      content: "README.MD",
+      content: "./examples/main.md",
     },
   ],
 };

@@ -1,15 +1,13 @@
-# react-video-trimmer
+# react-dropzone-cloudinary
 
-React component to upload files to cloudinary using drag and drop provided with react-dropzone
+React component to upload files to cloudinary using drag and drop provided through [react-dropzone](https://react-dropzone.js.org)
 
 Documentation and examples at https://react-dropzone.js.org. Source code at
 https://github.com/react-dropzone/react-dropzone/.
 
 ## Installation
 
-Install it from npm and include it in your React build process (using
-[Webpack](http://webpack.github.io/), [Browserify](http://browserify.org/),
-etc).
+Install it from npm and include it in your React build process
 
 ```bash
 npm install --save react-dropzone-cloudinary
@@ -20,6 +18,10 @@ or:
 ```bash
 yarn add react-dropzone-cloudinary
 ```
+
+## Demo
+
+See it [here](https://limistah.github.io/react-dropzone-cloudinary)
 
 ## Usage
 

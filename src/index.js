@@ -33,6 +33,8 @@ function DropzoneCloudinary({
     cloudinaryConfig
   );
 
+  console.log(_cloudinaryConfig);
+
   const [progress, setProgress] = useState(0);
   const handleFileDrop = useCallback((acceptedFiles) => {
     setProgress(0);
