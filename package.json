@@ -2,7 +2,7 @@
   "name": "react-dropzone-cloudinary",
   "version": "1.0.0-0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/es/index.js",
   "scripts": {
     "clean": "rimraf ./dist",
     "test": "cross-env NODE_ENV=test npm run eslint:src && jest --coverage && npm run typescript",
@@ -23,10 +23,6 @@
     "typescript": "tsc --project ./typings/tests"
   },
   "size-limit": [
-    {
-      "path": "dist/index.js",
-      "limit": "7 KB"
-    },
     {
       "path": "dist/es/index.js",
       "limit": "7 KB"
