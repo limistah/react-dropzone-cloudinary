@@ -26,12 +26,12 @@ import ReactDropzoneCloudinary from "react-dropzone-cloudinary";
 
 <ReactDropzoneCloudinary
   cloudinaryConfig={{
-    apiKey: "265769613316523",
-    apiSecret: "FbiyB4q3347vFOqqsbZWg6RChLw",
-    cloudName: "aleem",
+    apiKey: CLOUDINARY_API_KEY,
+    apiSecret: CLOUDINARY_API_SECRET,
+    cloudName: CLOUDINARY_CLOUD_NAME,
     public_id: "",
     format: "image",
-    upload_preset: "kngveu8v",
+    upload_preset: CLOUDINARY_UPLOAD_SECRET,
   }}
   onComplete={(data) => {
     console.log(data);
