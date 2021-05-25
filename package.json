@@ -1,6 +1,6 @@
 {
   "name": "react-dropzone-cloudinary",
-  "version": "1.0.0-0",
+  "version": "1.0.1",
   "description": "",
   "main": "dist/es/index.js",
   "scripts": {
@@ -144,7 +144,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/limistah/react-video-trimmer.git"
+    "url": "https://github.com/limistah/react-dropzone-cloudinary.git"
   },
   "typings": "typings/react-dropzone.d.ts",
   "config": {
