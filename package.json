@@ -61,7 +61,7 @@
     "upload",
     "cloudinary"
   ],
-  "author": "",
+  "author": "Aleem Isiaka",
   "license": "ISC",
   "peerDependencies": {
     "react": ">= 16.8"
