@@ -1,7 +1,7 @@
 import React, { useCallback, useState } from "react";
 import Dropzone from "react-dropzone";
 import cloudinaryClient from "../libs/cloudinaryClient";
-import { Progress } from "react-sweet-progress";
+import Progress from "react-sweet-progress";
 import "react-sweet-progress/lib/style.css";
 import "./style.css";
 const nooped = (fn) => (typeof fn === "function" ? fn : () => {});
